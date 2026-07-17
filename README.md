@@ -1,24 +1,29 @@
 # 🚀 NextRole AI
 
-NextRole AI is an AI-powered career opportunity assistant that helps students and job seekers analyze how well their resume matches a job description.
+An AI-powered career opportunity assistant that helps students and job seekers evaluate how well their resumes match job descriptions.
 
-The application extracts resume text, detects relevant skills, estimates an ATS-style score, identifies missing skills, generates personalized career advice and interview questions using Google Gemini, and creates downloadable PDF reports.
+NextRole AI analyzes resumes, estimates an ATS-style score, identifies missing skills, generates AI-powered career guidance and interview questions using Google Gemini, and creates downloadable PDF reports.
+
+---
+
+## 🌐 Live Demo
+
+🔗 https://nextrole-ai.streamlit.app/
 
 ---
 
 ## ✨ Features
 
-- Upload resumes in PDF, DOCX, or TXT format
-- Extract resume text automatically
-- Analyze job descriptions
-- Detect required, matched, and missing skills
-- Calculate job-match percentage
-- Estimate ATS-style resume score
-- Generate personalized AI career advice
-- Generate technical, project, missing-skill, and HR interview questions
-- Create downloadable PDF career reports
-- Save previous analyses in local history
-- Display dashboard cards and visual analysis
+- 📄 Upload resumes in PDF, DOCX, or TXT format
+- 🤖 AI-powered resume analysis using Google Gemini
+- 🎯 Job-match percentage calculation
+- 📊 ATS-style resume score estimation
+- ✅ Skill matching and missing skill detection
+- 💡 Personalized career advice
+- 🎤 Technical, HR, and project-based interview questions
+- 📑 Downloadable PDF reports
+- 🕒 Analysis history
+- 📈 Interactive dashboard
 
 ---
 
@@ -32,7 +37,7 @@ The application extracts resume text, detects relevant skills, estimates an ATS-
 - python-docx
 - ReportLab
 - JSON
-- HTML and CSS
+- HTML & CSS
 
 ---
 
@@ -43,16 +48,59 @@ NextRole-AI/
 │
 ├── data/
 │   └── history.json
-│
-├── .env
-├── .gitignore
 ├── ai_analyzer.py
 ├── app.py
 ├── ats_calculator.py
 ├── history_manager.py
 ├── interview_generator.py
 ├── pdf_report.py
-├── requirements.txt
 ├── resume_parser.py
 ├── skill_matcher.py
-└── README.md
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
+
+---
+
+## 🚀 Installation
+
+```bash
+git clone https://github.com/laxmiprasannapolagowni/NextRole-AI.git
+
+cd NextRole-AI
+
+python -m venv venv
+
+# Windows
+venv\Scripts\activate
+
+pip install -r requirements.txt
+
+streamlit run app.py
+```
+
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file and add:
+
+```env
+GEMINI_API_KEY=YOUR_API_KEY
+```
+
+---
+
+## 👩‍💻 Author
+
+**Polagowni Laxmiprasanna**
+
+- GitHub: https://github.com/laxmiprasannapolagowni
+- LinkedIn: https://www.linkedin.com/in/laxmiprasannapolagowni/
+
+---
+
+## ⭐ If you like this project
+
+Please consider giving it a ⭐ on GitHub.
