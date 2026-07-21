@@ -1,15 +1,19 @@
+<!-- Uncomment this after uploading banner.png
+
 <p align="center">
   <img src="./assets/banner.png" alt="NextRole AI Banner" width="100%">
 </p>
 
+-->
+
 <p align="center">
-  <img src="./assets/logo.png" alt="NextRole AI Logo" width="130">
+  <img src="./assets/logo.png" alt="NextRole AI Logo" width="150">
 </p>
 
 <h1 align="center">🚀 NextRole AI</h1>
 
 <p align="center">
-<b>AI-powered Resume Matcher • ATS Analyzer • Career Guidance • Interview Preparation</b>
+AI-powered Resume Matcher • ATS Analyzer • Career Guidance • Interview Preparation
 </p>
 
 <p align="center">
@@ -18,7 +22,7 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-Web_App-red?logo=streamlit)
 ![Google Gemini](https://img.shields.io/badge/Google-Gemini-blue?logo=google)
 ![Status](https://img.shields.io/badge/Status-Active-success)
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 </p>
 
@@ -32,9 +36,9 @@
 
 # 📖 Overview
 
-**NextRole AI** is an AI-powered career assistant that helps students and job seekers evaluate resume compatibility with job descriptions.
+**NextRole AI** is an AI-powered career assistant that helps students and job seekers evaluate how well their resumes match job descriptions.
 
-The application extracts resume content, estimates an ATS-style score, matches skills against job requirements, identifies missing competencies, provides AI-powered career guidance using **Google Gemini**, generates personalized interview questions, visualizes insights through interactive dashboards, and creates downloadable PDF reports.
+The application extracts resume content, estimates an ATS-style score, matches candidate skills with job requirements, identifies missing skills, generates AI-powered career guidance using **Google Gemini**, creates personalized interview questions, visualizes insights through an interactive dashboard, and produces downloadable PDF reports.
 
 ---
 
@@ -47,7 +51,7 @@ The application extracts resume content, estimates an ATS-style score, matches s
 - ❌ Missing Skill Detection
 - 🤖 AI-Powered Career Guidance using Google Gemini
 - 🎤 Personalized Technical, HR & Project Interview Questions
-- 📈 Interactive Dashboard & Skill Analytics
+- 📈 Interactive Dashboard
 - 📑 Downloadable PDF Report
 - 🕒 Analysis History
 
@@ -56,7 +60,7 @@ The application extracts resume content, estimates an ATS-style score, matches s
 # 🔄 Workflow
 
 <p align="center">
-<img src="./assets/workflow.png" alt="Workflow Diagram" width="95%">
+<img src="./assets/workflow.png" width="95%">
 </p>
 
 ---
@@ -64,7 +68,7 @@ The application extracts resume content, estimates an ATS-style score, matches s
 # 🏗️ Architecture
 
 <p align="center">
-<img src="./assets/architecture.png" alt="Architecture Diagram" width="95%">
+<img src="./assets/architecture.png" width="95%">
 </p>
 
 ---
@@ -74,7 +78,7 @@ The application extracts resume content, estimates an ATS-style score, matches s
 ## 🏠 Home Page
 
 <p align="center">
-<img src="./assets/home.png" alt="Home Page" width="100%">
+<img src="./assets/home.png" width="100%">
 </p>
 
 ---
@@ -82,7 +86,7 @@ The application extracts resume content, estimates an ATS-style score, matches s
 ## 📄 Resume Upload
 
 <p align="center">
-<img src="./assets/upload.png" alt="Resume Upload" width="100%">
+<img src="./assets/upload.png" width="100%">
 </p>
 
 ---
@@ -90,7 +94,7 @@ The application extracts resume content, estimates an ATS-style score, matches s
 ## 📊 Skills Analysis
 
 <p align="center">
-<img src="./assets/analysis.png" alt="Skills Analysis" width="100%">
+<img src="./assets/analysis.png" width="100%">
 </p>
 
 ---
@@ -98,23 +102,23 @@ The application extracts resume content, estimates an ATS-style score, matches s
 ## 📈 Dashboard
 
 <p align="center">
-<img src="./assets/dashboard.png" alt="Dashboard" width="100%">
+<img src="./assets/dashboard.png" width="100%">
 </p>
 
 ---
 
-## 🤖 AI Career Guidance
+## 🤖 AI Career Guidance & Report
 
 <p align="center">
-<img src="./assets/report.png" alt="AI Career Guidance" width="100%">
+<img src="./assets/report.png" width="100%">
 </p>
 
 ---
 
-## 🎤 Personalized Interview Questions
+## 🕒 Analysis History
 
 <p align="center">
-<img src="./assets/history.png" alt="Interview Questions" width="100%">
+<img src="./assets/history.png" width="100%">
 </p>
 
 ---
@@ -129,7 +133,7 @@ The application extracts resume content, estimates an ATS-style score, matches s
 
 - Streamlit
 
-### AI & LLM
+### AI
 
 - Google Gemini API
 
@@ -170,10 +174,6 @@ NextRole-AI/
 ├── ai_analyzer.py
 ├── ats_calculator.py
 ├── history_manager.py
-├── interview_generator.py
-├── pdf_report.py
-├── resume_parser.py
-├── skill_matcher.py
 ├── requirements.txt
 ├── LICENSE
 └── README.md
@@ -189,15 +189,29 @@ git clone https://github.com/laxmiprasannapolagowni/NextRole-AI.git
 cd NextRole-AI
 
 python -m venv venv
+```
 
-# Windows
+### Windows
+
+```bash
 venv\Scripts\activate
+```
 
-# Linux / macOS
+### Linux / macOS
+
+```bash
 source venv/bin/activate
+```
 
+Install dependencies:
+
+```bash
 pip install -r requirements.txt
+```
 
+Run the application:
+
+```bash
 streamlit run app.py
 ```
 
@@ -205,7 +219,7 @@ streamlit run app.py
 
 # 🔑 Environment Variables
 
-Create a **`.env`** file in the project root and add your Google Gemini API key:
+Create a `.env` file in the project root:
 
 ```text
 GEMINI_API_KEY=YOUR_API_KEY
@@ -217,8 +231,8 @@ GEMINI_API_KEY=YOUR_API_KEY
 
 - 🤖 AI Resume Builder
 - 📝 AI Cover Letter Generator
-- 📊 Resume Ranking System
 - 🏢 Company-wise ATS Analysis
+- 📊 Resume Ranking
 - 🎙️ Voice-Based Mock Interviews
 - 🌍 Multi-language Support
 - 👨‍💼 Recruiter Dashboard
@@ -229,9 +243,9 @@ GEMINI_API_KEY=YOUR_API_KEY
 
 ## Polagowni Laxmiprasanna
 
-Final-Year **B.Tech (Information Technology)** student at **CMR Engineering College, Hyderabad**, passionate about **Artificial Intelligence, Generative AI, Machine Learning, and Software Development**.
+Final-Year **B.Tech (Information Technology)** student at **CMR Engineering College, Hyderabad**, passionate about Artificial Intelligence, Generative AI, Machine Learning, and Software Development.
 
-**NextRole AI** was built to help students and job seekers improve their resumes, identify skill gaps, understand job readiness, and prepare confidently for interviews using AI-powered insights.
+**NextRole AI** was built to help students and job seekers improve their resumes, identify skill gaps, evaluate job readiness, and prepare confidently for interviews using AI-powered insights.
 
 ---
 
@@ -257,10 +271,14 @@ https://nextrole-ai.streamlit.app/
 
 # 📄 License
 
-This project is licensed under the **MIT License**. See the **LICENSE** file for more details.
+This project is licensed under the **MIT License**.
+
+See the **LICENSE** file for more details.
 
 ---
 
 <p align="center">
+
 ⭐ If you found this project useful, consider giving it a star on GitHub!
+
 </p>
