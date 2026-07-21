@@ -1,55 +1,141 @@
 # 🚀 NextRole AI
 
-An AI-powered career opportunity assistant that helps students and job seekers evaluate how well their resumes match job descriptions.
+<p align="center">
+  <b>AI-powered Resume Matcher • ATS Analyzer • Career Guidance • Interview Preparation</b>
+</p>
 
-NextRole AI analyzes resumes, estimates an ATS-style score, identifies missing skills, generates AI-powered career guidance and interview questions using Google Gemini, and creates downloadable PDF reports.
+<p align="center">
+
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-Web_App-red?logo=streamlit)
+![Google Gemini](https://img.shields.io/badge/Google-Gemini-blue?logo=google)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+</p>
 
 ---
 
-## 🌐 Live Demo
+# 🌐 Live Demo
 
 🔗 https://nextrole-ai.streamlit.app/
 
 ---
 
-## ✨ Features
+# 📖 Overview
 
-- 📄 Upload resumes in PDF, DOCX, or TXT format
-- 🤖 AI-powered resume analysis using Google Gemini
-- 🎯 Job-match percentage calculation
-- 📊 ATS-style resume score estimation
-- ✅ Skill matching and missing skill detection
-- 💡 Personalized career advice
-- 🎤 Technical, HR, and project-based interview questions
-- 📑 Downloadable PDF reports
-- 🕒 Analysis history
-- 📈 Interactive dashboard
+NextRole AI is an AI-powered career assistant that helps students and job seekers evaluate how well their resumes match a job description.
+
+The application analyzes resumes, estimates an ATS-style score, identifies missing skills, provides AI-powered career guidance using Google Gemini, generates personalized interview questions, and creates downloadable PDF reports.
 
 ---
 
-## 🛠️ Tech Stack
+# ✨ Features
 
+- 📄 Upload Resume (PDF, DOCX, TXT)
+- 🎯 ATS Resume Score
+- 📊 Job Match Percentage
+- ✅ Skill Matching
+- ❌ Missing Skill Detection
+- 🤖 Google Gemini Career Guidance
+- 🎤 Technical, HR & Project Interview Questions
+- 📈 Interactive Dashboard
+- 📑 Downloadable PDF Report
+- 🕒 Analysis History
+
+---
+
+# 📸 Screenshots
+
+## 🏠 Home
+
+<p align="center">
+<img src="assets/home.png" width="900">
+</p>
+
+---
+
+## 📄 Resume Upload
+
+<p align="center">
+<img src="assets/upload.png" width="900">
+</p>
+
+---
+
+## 📊 Skills Analysis
+
+<p align="center">
+<img src="assets/analysis.png" width="900">
+</p>
+
+---
+
+## 📈 Dashboard
+
+<p align="center">
+<img src="assets/dashboard.png" width="900">
+</p>
+
+---
+
+## 🤖 AI Career Guidance
+
+<p align="center">
+<img src="assets/report.png" width="900">
+</p>
+
+---
+
+## 🎤 Personalized Interview Questions
+
+<p align="center">
+<img src="assets/history.png" width="900">
+</p>
+
+---
+
+# 🛠️ Tech Stack
+
+### Programming Language
 - Python
+
+### Framework
 - Streamlit
+
+### AI
 - Google Gemini API
-- Google Gen AI SDK
-- PyPDF
+
+### Libraries
+- google-generativeai
+- PyPDF2
 - python-docx
+- pandas
+- matplotlib
 - ReportLab
+
+### Storage
 - JSON
-- HTML & CSS
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```text
 NextRole-AI/
 │
+├── assets/
+│   ├── home.png
+│   ├── upload.png
+│   ├── analysis.png
+│   ├── dashboard.png
+│   ├── report.png
+│   └── history.png
+│
 ├── data/
 │   └── history.json
-├── ai_analyzer.py
+│
 ├── app.py
+├── ai_analyzer.py
 ├── ats_calculator.py
 ├── history_manager.py
 ├── interview_generator.py
@@ -57,13 +143,12 @@ NextRole-AI/
 ├── resume_parser.py
 ├── skill_matcher.py
 ├── requirements.txt
-├── README.md
-└── .gitignore
+└── README.md
 ```
 
 ---
 
-## 🚀 Installation
+# 🚀 Installation
 
 ```bash
 git clone https://github.com/laxmiprasannapolagowni/NextRole-AI.git
@@ -82,25 +167,45 @@ streamlit run app.py
 
 ---
 
-## 🔑 Environment Variables
+# 🔑 Environment Variables
 
 Create a `.env` file and add:
 
-```env
+```text
 GEMINI_API_KEY=YOUR_API_KEY
 ```
 
 ---
 
-## 👩‍💻 Author
+# 💡 Future Enhancements
+
+- AI Resume Builder
+- Cover Letter Generator
+- Resume Ranking
+- Company-wise ATS Analysis
+- Voice Mock Interviews
+- Recruiter Dashboard
+- Multi-language Support
+
+---
+
+# 🤝 Contributing
+
+Contributions, suggestions, and improvements are welcome.
+
+Fork the repository and submit a pull request.
+
+---
+
+# ⭐ Support
+
+If you found this project useful, please consider giving it a ⭐ on GitHub.
+
+---
+
+# 👩‍💻 Author
 
 **Polagowni Laxmiprasanna**
 
 - GitHub: https://github.com/laxmiprasannapolagowni
 - LinkedIn: https://www.linkedin.com/in/laxmiprasannapolagowni/
-
----
-
-## ⭐ If you like this project
-
-Please consider giving it a ⭐ on GitHub.
