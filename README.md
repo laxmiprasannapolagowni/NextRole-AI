@@ -10,7 +10,7 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-Web_App-red?logo=streamlit)
 ![Google Gemini](https://img.shields.io/badge/Google-Gemini-blue?logo=google)
 ![Status](https://img.shields.io/badge/Status-Active-success)
-![License](https://img.shields.io/badge/License-MIT-green)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
 </p>
 
@@ -24,9 +24,9 @@
 
 # 📖 Overview
 
-**NextRole AI** is an AI-powered career assistant designed to help students and job seekers evaluate how well their resumes match a job description.
+**NextRole AI** is an AI-powered career assistant that helps students and job seekers evaluate resume compatibility with job descriptions.
 
-The application extracts resume content, calculates an ATS-style score, matches skills against job requirements, identifies missing skills, provides AI-powered career guidance using Google Gemini, generates personalized interview questions, displays interactive dashboards, and creates downloadable PDF reports.
+The application extracts resume content, estimates an ATS-style score, matches skills against job requirements, identifies missing competencies, provides AI-powered career guidance using **Google Gemini**, generates personalized interview questions, visualizes insights through interactive dashboards, and creates downloadable PDF reports.
 
 ---
 
@@ -39,7 +39,7 @@ The application extracts resume content, calculates an ATS-style score, matches 
 - ❌ Missing Skill Detection
 - 🤖 AI-Powered Career Guidance using Google Gemini
 - 🎤 Personalized Technical, HR & Project Interview Questions
-- 📈 Interactive Dashboard & Analytics
+- 📈 Interactive Dashboard & Skill Analytics
 - 📑 Downloadable PDF Report
 - 🕒 Analysis History
 
@@ -164,7 +164,8 @@ cd NextRole-AI
 
 python -m venv venv
 
-# Windows
+# Activate Virtual Environment (Windows)
+
 venv\Scripts\activate
 
 pip install -r requirements.txt
@@ -176,7 +177,7 @@ streamlit run app.py
 
 # 🔑 Environment Variables
 
-Create a **.env** file and add your Google Gemini API key:
+Create a **`.env`** file and add your Google Gemini API key:
 
 ```text
 GEMINI_API_KEY=YOUR_API_KEY
@@ -200,9 +201,13 @@ GEMINI_API_KEY=YOUR_API_KEY
 
 ## Polagowni Laxmiprasanna
 
-Final-Year B.Tech (Information Technology) student at **CMR Engineering College, Hyderabad**, passionate about **Artificial Intelligence, Generative AI, Machine Learning, and Software Development**. This project was built to help students and job seekers improve their resumes, understand their job readiness, and prepare confidently for interviews using AI-powered insights.
+Final-Year **B.Tech (Information Technology)** student at **CMR Engineering College, Hyderabad**, passionate about **Artificial Intelligence, Generative AI, Machine Learning, and Software Development**.
 
-### 📬 Contact
+**NextRole AI** was built to help students and job seekers improve their resumes, understand their job readiness, identify skill gaps, and prepare confidently for interviews using AI-powered insights.
+
+---
+
+# 📬 Contact
 
 📧 **Email**  
 laxmiprasannapolagowni@gmail.com
@@ -215,3 +220,9 @@ https://github.com/laxmiprasannapolagowni
 
 🌐 **Live Demo**  
 https://nextrole-ai.streamlit.app/
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**. See the **LICENSE** file for more details.
