@@ -1,7 +1,7 @@
 # 🚀 NextRole AI
 
 <p align="center">
-  <h3 align="center">AI-powered Resume Matcher • ATS Analyzer • Career Guidance • Interview Preparation</h3>
+  <b>AI-powered Resume Matcher • ATS Analyzer • Career Guidance • Interview Preparation</b>
 </p>
 
 <p align="center">
@@ -24,9 +24,9 @@
 
 # 📖 Overview
 
-**NextRole AI** is an AI-powered career assistant that helps students and job seekers evaluate how well their resumes match a job description.
+**NextRole AI** is an AI-powered career assistant designed to help students and job seekers evaluate how well their resumes match a job description.
 
-The application analyzes resumes, estimates an ATS-style score, identifies missing skills, provides AI-powered career guidance using Google Gemini, generates personalized interview questions, displays interactive dashboards, and creates downloadable PDF reports.
+The application extracts resume content, calculates an ATS-style score, matches skills against job requirements, identifies missing skills, provides AI-powered career guidance using Google Gemini, generates personalized interview questions, displays interactive dashboards, and creates downloadable PDF reports.
 
 ---
 
@@ -82,7 +82,7 @@ The application analyzes resumes, estimates an ATS-style score, identifies missi
 ## 🤖 AI Career Guidance
 
 <p align="center">
-<img src="assets/report.png" alt="Career Guidance" width="100%">
+<img src="assets/report.png" alt="AI Career Guidance" width="100%">
 </p>
 
 ---
@@ -97,28 +97,29 @@ The application analyzes resumes, estimates an ATS-style score, identifies missi
 
 # 🛠️ Tech Stack
 
-### Programming Language
+## Programming Language
 
 - Python
 
-### Framework
+## Framework
 
 - Streamlit
 
-### AI & LLM
+## AI & LLM
 
 - Google Gemini API
 
-### Libraries
+## Libraries
 
-- google-generativeai
-- PyPDF2
+- google-genai
+- pypdf
 - python-docx
 - pandas
 - matplotlib
-- ReportLab
+- reportlab
+- python-dotenv
 
-### Data Storage
+## Data Storage
 
 - JSON
 
@@ -135,10 +136,10 @@ NextRole-AI/
 │   ├── analysis.png
 │   ├── dashboard.png
 │   ├── report.png
-│   └── history.png
-│
-├── data/
-│   └── history.json
+│   ├── history.png
+│   ├── logo.png
+│   ├── workflow.png
+│   └── architecture.png
 │
 ├── app.py
 ├── ai_analyzer.py
@@ -163,8 +164,7 @@ cd NextRole-AI
 
 python -m venv venv
 
-# Activate Virtual Environment (Windows)
-
+# Windows
 venv\Scripts\activate
 
 pip install -r requirements.txt
@@ -176,7 +176,7 @@ streamlit run app.py
 
 # 🔑 Environment Variables
 
-Create a **.env** file and add:
+Create a **.env** file and add your Google Gemini API key:
 
 ```text
 GEMINI_API_KEY=YOUR_API_KEY
@@ -196,12 +196,11 @@ GEMINI_API_KEY=YOUR_API_KEY
 
 ---
 
-# 👩‍💻 About the Developer
+# 👩‍💻 About the Author
 
-**Polagowni Laxmiprasanna**
+## Polagowni Laxmiprasanna
 
-🎓 Final-Year B.Tech (Information Technology) Student  
-🏫 CMR Engineering College, Hyderabad
+Final-Year B.Tech (Information Technology) student at **CMR Engineering College, Hyderabad**, passionate about **Artificial Intelligence, Generative AI, Machine Learning, and Software Development**. This project was built to help students and job seekers improve their resumes, understand their job readiness, and prepare confidently for interviews using AI-powered insights.
 
 ### 📬 Contact
 
@@ -214,5 +213,5 @@ https://www.linkedin.com/in/laxmiprasannapolagowni/
 💻 **GitHub**  
 https://github.com/laxmiprasannapolagowni
 
-🌐 **Live Application**  
+🌐 **Live Demo**  
 https://nextrole-ai.streamlit.app/
