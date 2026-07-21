@@ -1,11 +1,15 @@
 <p align="center">
-  <img src="assets/banner.png" alt="NextRole AI Banner" width="100%">
+  <img src="./assets/banner.png" alt="NextRole AI Banner" width="100%">
+</p>
+
+<p align="center">
+  <img src="./assets/logo.png" alt="NextRole AI Logo" width="130">
 </p>
 
 <h1 align="center">🚀 NextRole AI</h1>
 
 <p align="center">
-  <b>AI-powered Resume Matcher • ATS Analyzer • Career Guidance • Interview Preparation</b>
+<b>AI-powered Resume Matcher • ATS Analyzer • Career Guidance • Interview Preparation</b>
 </p>
 
 <p align="center">
@@ -52,7 +56,7 @@ The application extracts resume content, estimates an ATS-style score, matches s
 # 🔄 Workflow
 
 <p align="center">
-  <img src="assets/workflow.png" alt="Workflow Diagram" width="90%">
+<img src="./assets/workflow.png" alt="Workflow Diagram" width="95%">
 </p>
 
 ---
@@ -60,7 +64,7 @@ The application extracts resume content, estimates an ATS-style score, matches s
 # 🏗️ Architecture
 
 <p align="center">
-  <img src="assets/architecture.png" alt="Architecture Diagram" width="90%">
+<img src="./assets/architecture.png" alt="Architecture Diagram" width="95%">
 </p>
 
 ---
@@ -70,7 +74,7 @@ The application extracts resume content, estimates an ATS-style score, matches s
 ## 🏠 Home Page
 
 <p align="center">
-<img src="assets/home.png" alt="Home Page" width="100%">
+<img src="./assets/home.png" alt="Home Page" width="100%">
 </p>
 
 ---
@@ -78,7 +82,7 @@ The application extracts resume content, estimates an ATS-style score, matches s
 ## 📄 Resume Upload
 
 <p align="center">
-<img src="assets/upload.png" alt="Resume Upload" width="100%">
+<img src="./assets/upload.png" alt="Resume Upload" width="100%">
 </p>
 
 ---
@@ -86,7 +90,7 @@ The application extracts resume content, estimates an ATS-style score, matches s
 ## 📊 Skills Analysis
 
 <p align="center">
-<img src="assets/analysis.png" alt="Skills Analysis" width="100%">
+<img src="./assets/analysis.png" alt="Skills Analysis" width="100%">
 </p>
 
 ---
@@ -94,7 +98,7 @@ The application extracts resume content, estimates an ATS-style score, matches s
 ## 📈 Dashboard
 
 <p align="center">
-<img src="assets/dashboard.png" alt="Dashboard" width="100%">
+<img src="./assets/dashboard.png" alt="Dashboard" width="100%">
 </p>
 
 ---
@@ -102,7 +106,7 @@ The application extracts resume content, estimates an ATS-style score, matches s
 ## 🤖 AI Career Guidance
 
 <p align="center">
-<img src="assets/report.png" alt="AI Career Guidance" width="100%">
+<img src="./assets/report.png" alt="AI Career Guidance" width="100%">
 </p>
 
 ---
@@ -110,26 +114,26 @@ The application extracts resume content, estimates an ATS-style score, matches s
 ## 🎤 Personalized Interview Questions
 
 <p align="center">
-<img src="assets/history.png" alt="Interview Questions" width="100%">
+<img src="./assets/history.png" alt="Interview Questions" width="100%">
 </p>
 
 ---
 
 # 🛠️ Tech Stack
 
-## Programming Language
+### Programming Language
 
 - Python
 
-## Framework
+### Framework
 
 - Streamlit
 
-## AI & LLM
+### AI & LLM
 
 - Google Gemini API
 
-## Libraries
+### Libraries
 
 - google-genai
 - pypdf
@@ -139,7 +143,7 @@ The application extracts resume content, estimates an ATS-style score, matches s
 - reportlab
 - python-dotenv
 
-## Data Storage
+### Data Storage
 
 - JSON
 
@@ -168,7 +172,10 @@ NextRole-AI/
 ├── history_manager.py
 ├── interview_generator.py
 ├── pdf_report.py
+├── resume_parser.py
+├── skill_matcher.py
 ├── requirements.txt
+├── LICENSE
 └── README.md
 ```
 
@@ -185,6 +192,9 @@ python -m venv venv
 
 # Windows
 venv\Scripts\activate
+
+# Linux / macOS
+source venv/bin/activate
 
 pip install -r requirements.txt
 
@@ -227,16 +237,20 @@ Final-Year **B.Tech (Information Technology)** student at **CMR Engineering Coll
 
 # 📬 Contact
 
-📧 **Email**  
+📧 **Email**
+
 laxmiprasannapolagowni@gmail.com
 
-💼 **LinkedIn**  
+💼 **LinkedIn**
+
 https://www.linkedin.com/in/laxmiprasannapolagowni/
 
-💻 **GitHub**  
+💻 **GitHub**
+
 https://github.com/laxmiprasannapolagowni
 
-🌐 **Live Demo**  
+🌐 **Live Demo**
+
 https://nextrole-ai.streamlit.app/
 
 ---
@@ -244,3 +258,9 @@ https://nextrole-ai.streamlit.app/
 # 📄 License
 
 This project is licensed under the **MIT License**. See the **LICENSE** file for more details.
+
+---
+
+<p align="center">
+⭐ If you found this project useful, consider giving it a star on GitHub!
+</p>
