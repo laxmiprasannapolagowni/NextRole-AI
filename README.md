@@ -1,4 +1,8 @@
-# 🚀 NextRole AI
+<p align="center">
+  <img src="assets/banner.png" alt="NextRole AI Banner" width="100%">
+</p>
+
+<h1 align="center">🚀 NextRole AI</h1>
 
 <p align="center">
   <b>AI-powered Resume Matcher • ATS Analyzer • Career Guidance • Interview Preparation</b>
@@ -42,6 +46,22 @@ The application extracts resume content, estimates an ATS-style score, matches s
 - 📈 Interactive Dashboard & Skill Analytics
 - 📑 Downloadable PDF Report
 - 🕒 Analysis History
+
+---
+
+# 🔄 Workflow
+
+<p align="center">
+  <img src="assets/workflow.png" alt="Workflow Diagram" width="90%">
+</p>
+
+---
+
+# 🏗️ Architecture
+
+<p align="center">
+  <img src="assets/architecture.png" alt="Architecture Diagram" width="90%">
+</p>
 
 ---
 
@@ -131,15 +151,16 @@ The application extracts resume content, estimates an ATS-style score, matches s
 NextRole-AI/
 │
 ├── assets/
+│   ├── banner.png
+│   ├── logo.png
+│   ├── workflow.png
+│   ├── architecture.png
 │   ├── home.png
 │   ├── upload.png
 │   ├── analysis.png
 │   ├── dashboard.png
 │   ├── report.png
-│   ├── history.png
-│   ├── logo.png
-│   ├── workflow.png
-│   └── architecture.png
+│   └── history.png
 │
 ├── app.py
 ├── ai_analyzer.py
@@ -147,8 +168,6 @@ NextRole-AI/
 ├── history_manager.py
 ├── interview_generator.py
 ├── pdf_report.py
-├── resume_parser.py
-├── skill_matcher.py
 ├── requirements.txt
 └── README.md
 ```
@@ -164,8 +183,7 @@ cd NextRole-AI
 
 python -m venv venv
 
-# Activate Virtual Environment (Windows)
-
+# Windows
 venv\Scripts\activate
 
 pip install -r requirements.txt
@@ -177,7 +195,7 @@ streamlit run app.py
 
 # 🔑 Environment Variables
 
-Create a **`.env`** file and add your Google Gemini API key:
+Create a **`.env`** file in the project root and add your Google Gemini API key:
 
 ```text
 GEMINI_API_KEY=YOUR_API_KEY
@@ -191,7 +209,7 @@ GEMINI_API_KEY=YOUR_API_KEY
 - 📝 AI Cover Letter Generator
 - 📊 Resume Ranking System
 - 🏢 Company-wise ATS Analysis
-- 🎙️ Voice Mock Interviews
+- 🎙️ Voice-Based Mock Interviews
 - 🌍 Multi-language Support
 - 👨‍💼 Recruiter Dashboard
 
@@ -203,7 +221,7 @@ GEMINI_API_KEY=YOUR_API_KEY
 
 Final-Year **B.Tech (Information Technology)** student at **CMR Engineering College, Hyderabad**, passionate about **Artificial Intelligence, Generative AI, Machine Learning, and Software Development**.
 
-**NextRole AI** was built to help students and job seekers improve their resumes, understand their job readiness, identify skill gaps, and prepare confidently for interviews using AI-powered insights.
+**NextRole AI** was built to help students and job seekers improve their resumes, identify skill gaps, understand job readiness, and prepare confidently for interviews using AI-powered insights.
 
 ---
 
