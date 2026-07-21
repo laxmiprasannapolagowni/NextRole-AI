@@ -1,7 +1,7 @@
 # 🚀 NextRole AI
 
 <p align="center">
-  <b>AI-powered Resume Matcher • ATS Analyzer • Career Guidance • Interview Preparation</b>
+  <h3 align="center">AI-powered Resume Matcher • ATS Analyzer • Career Guidance • Interview Preparation</h3>
 </p>
 
 <p align="center">
@@ -9,6 +9,7 @@
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Web_App-red?logo=streamlit)
 ![Google Gemini](https://img.shields.io/badge/Google-Gemini-blue?logo=google)
+![Status](https://img.shields.io/badge/Status-Active-success)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 </p>
@@ -17,15 +18,15 @@
 
 # 🌐 Live Demo
 
-🔗 https://nextrole-ai.streamlit.app/
+🔗 **https://nextrole-ai.streamlit.app/**
 
 ---
 
 # 📖 Overview
 
-NextRole AI is an AI-powered career assistant that helps students and job seekers evaluate how well their resumes match a job description.
+**NextRole AI** is an AI-powered career assistant that helps students and job seekers evaluate how well their resumes match a job description.
 
-The application analyzes resumes, estimates an ATS-style score, identifies missing skills, provides AI-powered career guidance using Google Gemini, generates personalized interview questions, and creates downloadable PDF reports.
+The application analyzes resumes, estimates an ATS-style score, identifies missing skills, provides AI-powered career guidance using Google Gemini, generates personalized interview questions, displays interactive dashboards, and creates downloadable PDF reports.
 
 ---
 
@@ -36,20 +37,20 @@ The application analyzes resumes, estimates an ATS-style score, identifies missi
 - 📊 Job Match Percentage
 - ✅ Skill Matching
 - ❌ Missing Skill Detection
-- 🤖 Google Gemini Career Guidance
-- 🎤 Technical, HR & Project Interview Questions
-- 📈 Interactive Dashboard
+- 🤖 AI-Powered Career Guidance using Google Gemini
+- 🎤 Personalized Technical, HR & Project Interview Questions
+- 📈 Interactive Dashboard & Analytics
 - 📑 Downloadable PDF Report
 - 🕒 Analysis History
 
 ---
 
-# 📸 Screenshots
+# 📸 Application Screenshots
 
-## 🏠 Home
+## 🏠 Home Page
 
 <p align="center">
-<img src="assets/home.png" width="900">
+<img src="assets/home.png" alt="Home Page" width="100%">
 </p>
 
 ---
@@ -57,7 +58,7 @@ The application analyzes resumes, estimates an ATS-style score, identifies missi
 ## 📄 Resume Upload
 
 <p align="center">
-<img src="assets/upload.png" width="900">
+<img src="assets/upload.png" alt="Resume Upload" width="100%">
 </p>
 
 ---
@@ -65,7 +66,7 @@ The application analyzes resumes, estimates an ATS-style score, identifies missi
 ## 📊 Skills Analysis
 
 <p align="center">
-<img src="assets/analysis.png" width="900">
+<img src="assets/analysis.png" alt="Skills Analysis" width="100%">
 </p>
 
 ---
@@ -73,7 +74,7 @@ The application analyzes resumes, estimates an ATS-style score, identifies missi
 ## 📈 Dashboard
 
 <p align="center">
-<img src="assets/dashboard.png" width="900">
+<img src="assets/dashboard.png" alt="Dashboard" width="100%">
 </p>
 
 ---
@@ -81,7 +82,7 @@ The application analyzes resumes, estimates an ATS-style score, identifies missi
 ## 🤖 AI Career Guidance
 
 <p align="center">
-<img src="assets/report.png" width="900">
+<img src="assets/report.png" alt="Career Guidance" width="100%">
 </p>
 
 ---
@@ -89,7 +90,7 @@ The application analyzes resumes, estimates an ATS-style score, identifies missi
 ## 🎤 Personalized Interview Questions
 
 <p align="center">
-<img src="assets/history.png" width="900">
+<img src="assets/history.png" alt="Interview Questions" width="100%">
 </p>
 
 ---
@@ -97,15 +98,19 @@ The application analyzes resumes, estimates an ATS-style score, identifies missi
 # 🛠️ Tech Stack
 
 ### Programming Language
+
 - Python
 
 ### Framework
+
 - Streamlit
 
-### AI
+### AI & LLM
+
 - Google Gemini API
 
 ### Libraries
+
 - google-generativeai
 - PyPDF2
 - python-docx
@@ -113,7 +118,8 @@ The application analyzes resumes, estimates an ATS-style score, identifies missi
 - matplotlib
 - ReportLab
 
-### Storage
+### Data Storage
+
 - JSON
 
 ---
@@ -157,7 +163,8 @@ cd NextRole-AI
 
 python -m venv venv
 
-# Windows
+# Activate Virtual Environment (Windows)
+
 venv\Scripts\activate
 
 pip install -r requirements.txt
@@ -169,7 +176,7 @@ streamlit run app.py
 
 # 🔑 Environment Variables
 
-Create a `.env` file and add:
+Create a **.env** file and add:
 
 ```text
 GEMINI_API_KEY=YOUR_API_KEY
@@ -179,33 +186,33 @@ GEMINI_API_KEY=YOUR_API_KEY
 
 # 💡 Future Enhancements
 
-- AI Resume Builder
-- Cover Letter Generator
-- Resume Ranking
-- Company-wise ATS Analysis
-- Voice Mock Interviews
-- Recruiter Dashboard
-- Multi-language Support
+- 🤖 AI Resume Builder
+- 📝 AI Cover Letter Generator
+- 📊 Resume Ranking System
+- 🏢 Company-wise ATS Analysis
+- 🎙️ Voice Mock Interviews
+- 🌍 Multi-language Support
+- 👨‍💼 Recruiter Dashboard
 
 ---
 
-# 🤝 Contributing
-
-Contributions, suggestions, and improvements are welcome.
-
-Fork the repository and submit a pull request.
-
----
-
-# ⭐ Support
-
-If you found this project useful, please consider giving it a ⭐ on GitHub.
-
----
-
-# 👩‍💻 Author
+# 👩‍💻 About the Developer
 
 **Polagowni Laxmiprasanna**
 
-- GitHub: https://github.com/laxmiprasannapolagowni
-- LinkedIn: https://www.linkedin.com/in/laxmiprasannapolagowni/
+🎓 Final-Year B.Tech (Information Technology) Student  
+🏫 CMR Engineering College, Hyderabad
+
+### 📬 Contact
+
+📧 **Email**  
+laxmiprasannapolagowni@gmail.com
+
+💼 **LinkedIn**  
+https://www.linkedin.com/in/laxmiprasannapolagowni/
+
+💻 **GitHub**  
+https://github.com/laxmiprasannapolagowni
+
+🌐 **Live Application**  
+https://nextrole-ai.streamlit.app/
