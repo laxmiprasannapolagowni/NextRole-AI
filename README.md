@@ -278,7 +278,3 @@ See the **LICENSE** file for more details.
 ---
 
 <p align="center">
-
-⭐ If you found this project useful, consider giving it a star on GitHub!
-
-</p>
